@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>json-rpc-cxx</name>
+  <version>0.3.1</version>
+  <description>json-rpc-cxx</description>
+  <maintainer email="yuma.nihei@gmail.com">Yuma Nihei</maintainer>
+  <license>MIT License</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>nlohmann-json3-dev</depend>
+
+  <test_depend>ament_cmake_cppcheck</test_depend>
+  <test_depend>ament_cmake_cpplint</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
